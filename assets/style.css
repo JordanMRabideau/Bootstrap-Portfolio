@@ -14,21 +14,17 @@ body {
 
 header {
     margin-bottom: 10px;
-    display: flex;
-    flex: 0 0 auto;
-    justify-content: space-between;
     background-color: #ffffff;
     border-bottom-width: 3px;
     border-bottom-style: solid;
     border-bottom-color: #cccccc;
-    width: 100%
 }
 
-#headerName {
+.navbar-brand {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
     background-color: #4aaaa5;
-    height: 100%;
+    height: auto;
     text-align: center
 }
 
@@ -36,7 +32,11 @@ header {
     padding-top: 10px;
 }
 
-.mainContent {
+.container {
     border: 1px solid #dddddd;
     background: #ffffff;
+}
+
+.navbar-nav {
+    float: right;
 }
