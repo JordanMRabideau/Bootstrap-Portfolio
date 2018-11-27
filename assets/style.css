@@ -34,7 +34,7 @@ header {
     padding-top: 10px;
 }
 
-.container {
+.mainBody {
     border: 1px solid #dddddd;
     background: #ffffff;
 }
@@ -74,5 +74,15 @@ footer {
 }
 
 .card {
-    margin-bottom:8px;
+    margin: 0 0 8px 8px;
+    height: 217px;
+    width: 217px;
+}
+
+.card-img {
+    object-fit: fill;
+}
+
+.float-left {
+    margin-right: 8px;
 }
