@@ -1,15 +1,12 @@
 html {
-    position: relative;
     height: 100%;
-    width: 100%;
-    min-height: 100%;
 }
 
 body {
     display: flex;
     min-height: 100%;
     flex-direction: column;
-    margin-bottom: 20px;
+    margin: 0;
     padding: 0;
     background-image: url(images/circuit/circuit.png)
 }
@@ -34,7 +31,7 @@ header {
     padding-top: 10px;
 }
 
-.mainBody {
+#mainBody {
     border: 1px solid #dddddd;
     background: #ffffff;
 }
@@ -59,6 +56,7 @@ footer {
     flex: 0 0 auto;
     background: #666666;
     border-top: 8px solid #4aaaa5;
+}
 }
 
 .imageText {
@@ -85,4 +83,8 @@ footer {
 
 .float-left {
     margin-right: 8px;
+}
+
+#navbarNavAltMarkup {
+    display: block!important
 }
