@@ -1,5 +1,5 @@
 html {
-    height: 100%;
+height: 100%;
 }
 
 body {
@@ -19,7 +19,7 @@ header {
     border-bottom-color: #cccccc;
 }
 
-.navbar-brand {
+.h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
     background-color: #4aaaa5;
@@ -53,11 +53,17 @@ p {
 }
 
 footer {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    height: 35px;
     flex: 0 0 auto;
     background: #666666;
     border-top: 8px solid #4aaaa5;
 }
-}
+
 
 .imageText {
     padding: 8px 0 5px 0;
@@ -88,3 +94,10 @@ footer {
 #navbarNavAltMarkup {
     display: block!important
 }
+
+h6 {
+    margin: 0;
+}
+
+
+
